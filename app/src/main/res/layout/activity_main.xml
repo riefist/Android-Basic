@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.muhamadarief.androidbasic.MainActivity">
+
+    <Button
+        android:id="@+id/btn_activity"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Activity"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"/>
+
+    <Button
+        android:id="@+id/btn_intent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Intent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Fragment"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"/>
+
+
+</LinearLayout>
